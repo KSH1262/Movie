@@ -1,0 +1,99 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  color: white;
+}
+
+.top__menu {
+  display: flex;
+  justify-content: flex-start;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 70px;
+  height: 80px;
+  background-color: #212121;
+}
+
+.top__menu i {
+  display: flex;
+  align-items: center;
+}
+
+.top__menu .btn .text__bar {
+  border-radius: 8px;
+  border: 1px solid #313131;
+  width: 300px;
+  height: 30px;
+  font-size: 20px;
+  background-color: #181818;
+  color: white;
+}
+
+.top__menu .btn .text__glass {
+  background-color: #212121;
+}
+
+.top__menu .btn .text__glass i {
+  color: white;
+  font-size: 20px;
+}
+
+.top__menu .header {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+}
+
+.top__menu .header i{
+  padding: 10px;
+  font-size: 30px;
+}
+
+.btn button {
+  background-color: white;
+  border: 0;
+}
+
+.main__text {
+  display: grid;
+  height: 91.7vh;
+}
+
+.main__text .right__text {
+  padding: 60px;
+  text-align: center;
+  background-color: #181818;
+}
+
+#like_movieBtn button{
+  background-color: #181818;  
+  border: none;
+}
+
+#like_movieBtn button img {
+  width: 100px;
+  height: 150px;
+}
+
+.movie_info {
+  display: grid;
+  grid-template-rows: 400px 1fr;
+}
+
+.movie_info .movie_group {
+  display: grid;
+  grid-template-columns: 270px 1fr;
+}
+
+.movie_info #movie_img {
+  height: 345px;
+  width: 230;
+}
+
+.movie_info #movie_title {
+  font-size: 40px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
